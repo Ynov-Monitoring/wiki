@@ -1,5 +1,3 @@
-# Convention de nomage
-
 ## Branche git:
 
 branche du code fini et testé :  master </br>
