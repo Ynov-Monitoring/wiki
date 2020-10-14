@@ -2,9 +2,11 @@
 
 ## Branche git:
 
-branche du code fini et testé :  master
-branche du code fini : develop 
-branche du code en cours du developement: feature/issue-<numero de l'issue>
+branche du code fini et testé :  master </br>
+
+branche du code fini : develop </br>
+
+branche du code en cours du developement: feature/issue-<numero de l'issue> 
 
 ## Variable Ansible: 
 
