@@ -7,4 +7,4 @@
         overwrite: yes
         path: /vagrant/deployment/playbook/templates/dashboard/foo.json
 
-    # # Curl Command : curl -X POST http://192.168.50.33:3000/api/dashboards/db -u admin:adminpass -H "Content-Type: application/json" -H "accept: application/json" -d @filename
+    \# Curl Command : curl -X POST http://192.168.50.33:3000/api/dashboards/db -u admin:adminpass -H "Content-Type: application/json" -H "accept: application/json" -d @filename
