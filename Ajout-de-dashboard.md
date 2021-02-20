@@ -1,3 +1,5 @@
+Vous trouverez ci-dessous la manière de pousser un dashboard sur mesure depuis ansible. 
+Cet exemple utilise un role, il serait donc interessant de le faire en interagissant seulement avec l'api de grafana
 ```yaml
   - name: Import Test dashboard
       community.grafana.grafana_dashboard:
