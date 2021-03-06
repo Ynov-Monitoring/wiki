@@ -21,8 +21,25 @@ Une nouvelle donnée est récupérée par telegraf et envoyé à InfluxDB toutes
 
 **RP1toRP3** : Continuous query qui récupère toute les données de measurement sur 10s et fait une moyenne sur 1 minute et les envoie sur RP6hour (voir au dessus) 
 
-`CREATE CONTINUOUS QUERY RP1toRP2 on monitoring RESAMPLE EVERY 1h FOR 1h BEGIN SELECT mean(*) INTO RP3month.:MEASUREMENT FROM /.*/ WHERE GROUP BY time(1m), * END`
+```sql
+CREATE CONTINUOUS QUERY RP1toRP2 on monitoring
+RESAMPLE EVERY 1h FOR 1h 
+BEGIN 
+   SELECT mean(*) INTO RP3month.:MEASUREMENT 
+   FROM /.*/ 
+   GROUP BY time(1m), * 
+END
+```
 
 **RP3toRP6** : Continuous query qui récupère toute les données de RP6Hour sur 1 minute et fait une moyenne sur 10 minute et les envoie sur RP10hour (voir au dessus) 
 
-`CREATE CONTINUOUS QUERY RP2toRP3 on monitoring RESAMPLE EVERY 2h FOR 2h BEGIN SELECT mean(*) INTO RP6month.:MEASUREMENT FROM RP3month./.*/ GROUP BY time(10m), * END"`
+```sql
+CREATE CONTINUOUS QUERY RP2toRP3 on monitoring 
+RESAMPLE EVERY 2h FOR 2h 
+BEGIN 
+   SELECT mean(*) 
+   INTO RP6month.:MEASUREMENT 
+   FROM RP3month./.*/ 
+   GROUP BY time(10m), * 
+END"
+```
