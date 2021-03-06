@@ -35,10 +35,103 @@ Notre dashboard custom :
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 45,
-  "iteration": 1613836120171,
+  "id": 1,
+  "iteration": 1615044665740,
   "links": [],
   "panels": [
+    {
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {},
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 43,
+      "options": {
+        "displayMode": "gradient",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "text": {}
+      },
+      "pluginVersion": "7.4.3",
+      "targets": [
+        {
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "cpu",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "usage_idle"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            }
+          ]
+        }
+      ],
+      "title": "Panel Title",
+      "type": "bargauge"
+    },
     {
       "collapsed": false,
       "datasource": null,
@@ -46,7 +139,7 @@ Notre dashboard custom :
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 0
+        "y": 8
       },
       "id": 2,
       "panels": [],
@@ -67,22 +160,22 @@ Notre dashboard custom :
         "overrides": []
       },
       "gridPos": {
-        "h": 6,
-        "w": 5,
+        "h": 3,
+        "w": 3,
         "x": 0,
-        "y": 1
+        "y": 9
       },
       "id": 4,
       "options": {
-        "content": "<h3 style=\"text-align:center;margin-top:20%; font-size:3em\">${server}</h3>",
+        "content": "<h3 style=\"text-align:center; margin-top: 10%; font-size:1.5em\">${server}</h3>",
         "mode": "html"
       },
-      "pluginVersion": "7.4.0",
+      "pluginVersion": "7.4.3",
       "repeat": "server",
       "repeatDirection": "v",
       "scopedVars": {
         "server": {
-          "selected": false,
+          "selected": true,
           "text": "devops-ansible",
           "value": "devops-ansible"
         }
@@ -152,10 +245,10 @@ Notre dashboard custom :
         "overrides": []
       },
       "gridPos": {
-        "h": 6,
-        "w": 6,
-        "x": 5,
-        "y": 1
+        "h": 3,
+        "w": 2,
+        "x": 3,
+        "y": 9
       },
       "id": 8,
       "options": {
@@ -173,12 +266,12 @@ Notre dashboard custom :
         "text": {},
         "textMode": "auto"
       },
-      "pluginVersion": "7.4.0",
+      "pluginVersion": "7.4.3",
       "repeat": "server",
       "repeatDirection": "v",
       "scopedVars": {
         "server": {
-          "selected": false,
+          "selected": true,
           "text": "devops-ansible",
           "value": "devops-ansible"
         }
@@ -233,6 +326,10 @@ Notre dashboard custom :
               {
                 "color": "green",
                 "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
               }
             ]
           },
@@ -241,17 +338,15 @@ Notre dashboard custom :
         "overrides": []
       },
       "gridPos": {
-        "h": 6,
-        "w": 6,
-        "x": 11,
-        "y": 1
+        "h": 3,
+        "w": 2,
+        "x": 5,
+        "y": 9
       },
       "id": 13,
       "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
+        "displayMode": "lcd",
+        "orientation": "horizontal",
         "reduceOptions": {
           "calcs": [
             "lastNotNull"
@@ -259,15 +354,15 @@ Notre dashboard custom :
           "fields": "/^last$/",
           "values": false
         },
-        "text": {},
-        "textMode": "auto"
+        "showUnfilled": true,
+        "text": {}
       },
-      "pluginVersion": "7.4.0",
+      "pluginVersion": "7.4.3",
       "repeat": "server",
       "repeatDirection": "v",
       "scopedVars": {
         "server": {
-          "selected": false,
+          "selected": true,
           "text": "devops-ansible",
           "value": "devops-ansible"
         }
@@ -285,19 +380,27 @@ Notre dashboard custom :
           "measurement": "cpu",
           "orderByTime": "ASC",
           "policy": "default",
+          "query": "SELECT 100  - last(\"usage_idle\") FROM \"cpu\" WHERE (\"host\" =~ /^$server$/) AND $timeFilter GROUP BY time($interval)",
+          "rawQuery": true,
           "refId": "A",
           "resultFormat": "table",
           "select": [
             [
               {
                 "params": [
-                  "usage_system"
+                  "usage_idle"
                 ],
                 "type": "field"
               },
               {
                 "params": [],
                 "type": "last"
+              },
+              {
+                "params": [
+                  "-100"
+                ],
+                "type": "math"
               }
             ]
           ],
@@ -311,41 +414,63 @@ Notre dashboard custom :
         }
       ],
       "title": "CPU Usage",
-      "type": "stat"
+      "type": "bargauge"
     },
     {
       "datasource": null,
+      "description": "",
       "fieldConfig": {
         "defaults": {
-          "color": {},
+          "color": {
+            "mode": "thresholds"
+          },
           "custom": {},
+          "mappings": [],
           "thresholds": {
-            "mode": "absolute",
-            "steps": []
-          }
+            "mode": "percentage",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "percent"
         },
         "overrides": []
       },
       "gridPos": {
-        "h": 6,
-        "w": 5,
-        "x": 0,
-        "y": 7
+        "h": 3,
+        "w": 3,
+        "x": 7,
+        "y": 9
       },
-      "id": 14,
+      "id": 21,
       "options": {
-        "content": "<h3 style=\"text-align:center;margin-top:20%; font-size:3em\">${server}</h3>",
-        "mode": "html"
+        "displayMode": "lcd",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "text": {}
       },
-      "pluginVersion": "7.4.0",
+      "pluginVersion": "7.4.3",
+      "repeat": "server",
       "repeatDirection": "v",
-      "repeatIteration": 1613836120171,
-      "repeatPanelId": 4,
       "scopedVars": {
         "server": {
-          "selected": false,
-          "text": "devops-grafana",
-          "value": "devops-grafana"
+          "selected": true,
+          "text": "devops-ansible",
+          "value": "devops-ansible"
         }
       },
       "targets": [
@@ -364,6 +489,7 @@ Notre dashboard custom :
               "type": "fill"
             }
           ],
+          "measurement": "mem",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -372,92 +498,7 @@ Notre dashboard custom :
             [
               {
                 "params": [
-                  "value"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "mean"
-              }
-            ]
-          ],
-          "tags": []
-        }
-      ],
-      "timeFrom": null,
-      "timeShift": null,
-      "title": "",
-      "type": "text"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              }
-            ]
-          },
-          "unit": "s"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 6,
-        "w": 6,
-        "x": 5,
-        "y": 7
-      },
-      "id": 16,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "/^last$/",
-          "values": false
-        },
-        "text": {},
-        "textMode": "auto"
-      },
-      "pluginVersion": "7.4.0",
-      "repeatDirection": "v",
-      "repeatIteration": 1613836120171,
-      "repeatPanelId": 8,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-grafana",
-          "value": "devops-grafana"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [],
-          "measurement": "system",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "table",
-          "select": [
-            [
-              {
-                "params": [
-                  "uptime"
+                  "used_percent"
                 ],
                 "type": "field"
               },
@@ -476,8 +517,10 @@ Notre dashboard custom :
           ]
         }
       ],
-      "title": "Uptime",
-      "type": "stat"
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Memory Use",
+      "type": "bargauge"
     },
     {
       "datasource": null,
@@ -487,7 +530,6 @@ Notre dashboard custom :
             "mode": "thresholds"
           },
           "custom": {},
-          "decimals": 1,
           "mappings": [],
           "thresholds": {
             "mode": "absolute",
@@ -495,6 +537,10 @@ Notre dashboard custom :
               {
                 "color": "green",
                 "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
               }
             ]
           },
@@ -503,112 +549,33 @@ Notre dashboard custom :
         "overrides": []
       },
       "gridPos": {
-        "h": 6,
-        "w": 6,
-        "x": 11,
-        "y": 7
+        "h": 3,
+        "w": 3,
+        "x": 10,
+        "y": 9
       },
-      "id": 18,
+      "id": 31,
       "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
+        "displayMode": "lcd",
+        "orientation": "horizontal",
         "reduceOptions": {
           "calcs": [
             "lastNotNull"
           ],
-          "fields": "/^last$/",
+          "fields": "",
           "values": false
         },
-        "text": {},
-        "textMode": "auto"
+        "showUnfilled": true,
+        "text": {}
       },
-      "pluginVersion": "7.4.0",
+      "pluginVersion": "7.4.3",
+      "repeat": "server",
       "repeatDirection": "v",
-      "repeatIteration": 1613836120171,
-      "repeatPanelId": 13,
       "scopedVars": {
         "server": {
-          "selected": false,
-          "text": "devops-grafana",
-          "value": "devops-grafana"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$interval"
-              ],
-              "type": "time"
-            }
-          ],
-          "measurement": "cpu",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "table",
-          "select": [
-            [
-              {
-                "params": [
-                  "usage_system"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            }
-          ]
-        }
-      ],
-      "title": "CPU Usage",
-      "type": "stat"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {},
-          "custom": {},
-          "thresholds": {
-            "mode": "absolute",
-            "steps": []
-          }
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 6,
-        "w": 5,
-        "x": 0,
-        "y": 13
-      },
-      "id": 15,
-      "options": {
-        "content": "<h3 style=\"text-align:center;margin-top:20%; font-size:3em\">${server}</h3>",
-        "mode": "html"
-      },
-      "pluginVersion": "7.4.0",
-      "repeatDirection": "v",
-      "repeatIteration": 1613836120171,
-      "repeatPanelId": 4,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-influxdb",
-          "value": "devops-influxdb"
+          "selected": true,
+          "text": "devops-ansible",
+          "value": "devops-ansible"
         }
       },
       "targets": [
@@ -627,6 +594,7 @@ Notre dashboard custom :
               "type": "fill"
             }
           ],
+          "measurement": "disk",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -635,212 +603,32 @@ Notre dashboard custom :
             [
               {
                 "params": [
-                  "value"
+                  "used_percent"
                 ],
                 "type": "field"
               },
               {
                 "params": [],
-                "type": "mean"
+                "type": "last"
               }
             ]
           ],
-          "tags": []
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            }
+          ]
         }
       ],
       "timeFrom": null,
       "timeShift": null,
-      "title": "",
-      "type": "text"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              }
-            ]
-          },
-          "unit": "s"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 6,
-        "w": 6,
-        "x": 5,
-        "y": 13
-      },
-      "id": 17,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "/^last$/",
-          "values": false
-        },
-        "text": {},
-        "textMode": "auto"
-      },
-      "pluginVersion": "7.4.0",
-      "repeatDirection": "v",
-      "repeatIteration": 1613836120171,
-      "repeatPanelId": 8,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-influxdb",
-          "value": "devops-influxdb"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [],
-          "measurement": "system",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "table",
-          "select": [
-            [
-              {
-                "params": [
-                  "uptime"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            }
-          ]
-        }
-      ],
-      "title": "Uptime",
-      "type": "stat"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "decimals": 1,
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              }
-            ]
-          },
-          "unit": "percent"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 6,
-        "w": 6,
-        "x": 11,
-        "y": 13
-      },
-      "id": 19,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "/^last$/",
-          "values": false
-        },
-        "text": {},
-        "textMode": "auto"
-      },
-      "pluginVersion": "7.4.0",
-      "repeatDirection": "v",
-      "repeatIteration": 1613836120171,
-      "repeatPanelId": 13,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-influxdb",
-          "value": "devops-influxdb"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$interval"
-              ],
-              "type": "time"
-            }
-          ],
-          "measurement": "cpu",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "table",
-          "select": [
-            [
-              {
-                "params": [
-                  "usage_system"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            }
-          ]
-        }
-      ],
-      "title": "CPU Usage",
-      "type": "stat"
+      "title": "Disk Use",
+      "type": "bargauge"
     }
   ],
-  "refresh": false,
+  "refresh": "10s",
   "schemaVersion": 27,
   "style": "dark",
   "tags": [],
@@ -874,12 +662,13 @@ Notre dashboard custom :
       {
         "allValue": ".*",
         "current": {
-          "selected": false,
+          "selected": true,
+          "tags": [],
           "text": [
-            "All"
+            "devops-ansible"
           ],
           "value": [
-            "$__all"
+            "devops-ansible"
           ]
         },
         "datasource": null,
@@ -913,6 +702,6 @@ Notre dashboard custom :
   "timezone": "",
   "title": "COnfig manuelle",
   "uid": "3Xoy8isMk",
-  "version": 6
+  "version": 18
 }
 ```
