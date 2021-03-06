@@ -37,8 +37,7 @@ END
 CREATE CONTINUOUS QUERY RP2toRP3 on monitoring 
 RESAMPLE EVERY 2h FOR 2h 
 BEGIN 
-   SELECT mean(*) 
-   INTO RP6month.:MEASUREMENT 
+   SELECT mean(*) INTO RP6month.:MEASUREMENT 
    FROM RP3month./.*/ 
    GROUP BY time(10m), * 
 END"
