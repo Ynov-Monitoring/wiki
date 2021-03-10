@@ -4,7 +4,7 @@ Nous utilisons les sondes telegraf pour remonter les données dans notre BDD.
 La configuration de ces sondes se fait par le rôle [manala.telegraf](https://github.com/manala/ansible-role-telegraf).  
 Vous trouverez ci-dessous un exemple non complet de fichier de conf après lancement du playbook ansible. Les commentaires ont été rajoutés à la main pour le wiki. 
 
-```
+```conf
 # Configuration générale de la sonde 
 [agent]
     interval = "100s"
