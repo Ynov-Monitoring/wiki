@@ -1,17 +1,16 @@
-Welcome to the deployment wiki!
+# Wiki du projet Monitoring&Alerting
 
-- [TECHNICAL]
+Dans ce wiki, vous trouverez les informations sur les tenants et aboutissants du projet _Monitoring & Alerting_.  
+## Sommaire 
+- Getting Started Client 
+  - [L'équipe](#léquipe)
+  - [Demande d'accès](#demande-daccès)
+  - [Grafana](#point-dentrée)
+
+- Getting Started technique
     - [Vagrant](https://github.com/Ynov-Monitoring/deployment/wiki/Vagrant)
     - [Dashboard Memento](https://github.com/Ynov-Monitoring/deployment/wiki/Ajout-de-dashboard)
     - [Rétention de données](https://github.com/Ynov-Monitoring/deployment/wiki/Retention-de-donn%C3%A9es)
-
-
-
-
-
-## Introduction 
-
-Dans ce wiki, vous trouverez les informations sur les tenants et aboutissants du projet _Monitoring & Alerting_.  
 
 ### L'équipe 
 
