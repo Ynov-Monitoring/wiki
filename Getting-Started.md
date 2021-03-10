@@ -3,7 +3,7 @@
 Dans ce wiki, vous trouverez les informations sur les tenants et aboutissants du projet _Monitoring & Alerting_.  
 
 Les membres du groupe pour l'année 2020/2021 sont :
-- [Brice Michalski](mailto:brice.michalsky@ynov.com)
+- [Brice Michalski](mailto:brice.michalsky@ynov.com,killian.cambus@ynov.com)
 - [Killian Cambus](mailto:killian.cambus@ynov.com)
 - [Ilya Yakubenka](mailto:ilya.yakubenka@ynov.com)
 - [Youssef Madhous](mailto:youssef.madhous@ynov.com)
