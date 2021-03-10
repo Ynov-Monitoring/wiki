@@ -30,7 +30,7 @@ Les membres du groupe pour l'année 2020/2021 sont :
 
 ### Demande d'accès
 
-En tant que nouveau membre, vous devez contacter [_insert a person to contact_] pour que nous puissions déployer nos sondes de supervision sur vos machines.   
+En tant que nouveau membre, vous devez contacter [_insert a person to contact_] pour que nous puissions déployer nos sondes de supervision sur vos machines. Si vos machines ont été déployées par l'équipe _Cloud VM_, les sondes ont déjà été déployées.
 
 ### Point d'entrée
 
