@@ -35,8 +35,8 @@ Notre dashboard custom :
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 2,
-  "iteration": 1615390940811,
+  "id": 3,
+  "iteration": 1615393474559,
   "links": [],
   "panels": [
     {
@@ -283,7 +283,7 @@ Notre dashboard custom :
             "mode": "thresholds"
           },
           "custom": {},
-          "decimals": 2,
+          "decimals": 1,
           "mappings": [],
           "thresholds": {
             "mode": "absolute",
@@ -956,14 +956,14 @@ Notre dashboard custom :
         "x": 0,
         "y": 6
       },
-      "id": 418,
+      "id": 396,
       "options": {
         "content": "<h3 style=\"text-align:center; margin-top: 10%; font-size:1.5em\">${server}</h3>",
         "mode": "html"
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 4,
       "scopedVars": {
         "server": {
@@ -1022,7 +1022,7 @@ Notre dashboard custom :
             "mode": "thresholds"
           },
           "custom": {},
-          "decimals": 2,
+          "decimals": 1,
           "mappings": [],
           "thresholds": {
             "mode": "absolute",
@@ -1043,7 +1043,7 @@ Notre dashboard custom :
         "x": 3,
         "y": 6
       },
-      "id": 420,
+      "id": 398,
       "options": {
         "colorMode": "value",
         "graphMode": "area",
@@ -1061,7 +1061,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 8,
       "scopedVars": {
         "server": {
@@ -1141,7 +1141,7 @@ Notre dashboard custom :
         "x": 5,
         "y": 6
       },
-      "id": 422,
+      "id": 400,
       "options": {
         "displayMode": "lcd",
         "orientation": "horizontal",
@@ -1157,7 +1157,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 13,
       "scopedVars": {
         "server": {
@@ -1252,7 +1252,7 @@ Notre dashboard custom :
         "x": 9,
         "y": 6
       },
-      "id": 424,
+      "id": 402,
       "options": {
         "displayMode": "lcd",
         "orientation": "horizontal",
@@ -1268,7 +1268,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 21,
       "scopedVars": {
         "server": {
@@ -1362,7 +1362,7 @@ Notre dashboard custom :
         "x": 13,
         "y": 6
       },
-      "id": 426,
+      "id": 404,
       "options": {
         "displayMode": "lcd",
         "orientation": "horizontal",
@@ -1378,7 +1378,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 31,
       "scopedVars": {
         "server": {
@@ -1473,7 +1473,7 @@ Notre dashboard custom :
         "x": 17,
         "y": 6
       },
-      "id": 428,
+      "id": 406,
       "options": {
         "displayMode": "lcd",
         "orientation": "horizontal",
@@ -1489,7 +1489,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 122,
       "scopedVars": {
         "server": {
@@ -1579,7 +1579,7 @@ Notre dashboard custom :
         "y": 6
       },
       "height": "150",
-      "id": 430,
+      "id": 408,
       "interval": null,
       "links": [],
       "mappingType": 1,
@@ -1608,7 +1608,7 @@ Notre dashboard custom :
         }
       ],
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 35,
       "scopedVars": {
         "server": {
@@ -1701,14 +1701,14 @@ Notre dashboard custom :
         "x": 0,
         "y": 8
       },
-      "id": 419,
+      "id": 397,
       "options": {
         "content": "<h3 style=\"text-align:center; margin-top: 10%; font-size:1.5em\">${server}</h3>",
         "mode": "html"
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 4,
       "scopedVars": {
         "server": {
@@ -1767,7 +1767,7 @@ Notre dashboard custom :
             "mode": "thresholds"
           },
           "custom": {},
-          "decimals": 2,
+          "decimals": 1,
           "mappings": [],
           "thresholds": {
             "mode": "absolute",
@@ -1788,7 +1788,7 @@ Notre dashboard custom :
         "x": 3,
         "y": 8
       },
-      "id": 421,
+      "id": 399,
       "options": {
         "colorMode": "value",
         "graphMode": "area",
@@ -1806,7 +1806,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 8,
       "scopedVars": {
         "server": {
@@ -1886,7 +1886,7 @@ Notre dashboard custom :
         "x": 5,
         "y": 8
       },
-      "id": 423,
+      "id": 401,
       "options": {
         "displayMode": "lcd",
         "orientation": "horizontal",
@@ -1902,7 +1902,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 13,
       "scopedVars": {
         "server": {
@@ -1997,7 +1997,7 @@ Notre dashboard custom :
         "x": 9,
         "y": 8
       },
-      "id": 425,
+      "id": 403,
       "options": {
         "displayMode": "lcd",
         "orientation": "horizontal",
@@ -2013,7 +2013,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 21,
       "scopedVars": {
         "server": {
@@ -2107,7 +2107,7 @@ Notre dashboard custom :
         "x": 13,
         "y": 8
       },
-      "id": 427,
+      "id": 405,
       "options": {
         "displayMode": "lcd",
         "orientation": "horizontal",
@@ -2123,7 +2123,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 31,
       "scopedVars": {
         "server": {
@@ -2218,7 +2218,7 @@ Notre dashboard custom :
         "x": 17,
         "y": 8
       },
-      "id": 429,
+      "id": 407,
       "options": {
         "displayMode": "lcd",
         "orientation": "horizontal",
@@ -2234,7 +2234,7 @@ Notre dashboard custom :
       },
       "pluginVersion": "7.4.3",
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 122,
       "scopedVars": {
         "server": {
@@ -2324,7 +2324,7 @@ Notre dashboard custom :
         "y": 8
       },
       "height": "150",
-      "id": 431,
+      "id": 409,
       "interval": null,
       "links": [],
       "mappingType": 1,
@@ -2353,7 +2353,7 @@ Notre dashboard custom :
         }
       ],
       "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
+      "repeatIteration": 1615393474559,
       "repeatPanelId": 35,
       "scopedVars": {
         "server": {
@@ -2883,13 +2883,7 @@ Notre dashboard custom :
       "datasource": null,
       "fieldConfig": {
         "defaults": {
-          "color": {},
-          "custom": {},
-          "thresholds": {
-            "mode": "absolute",
-            "steps": []
-          },
-          "unit": "none"
+          "custom": {}
         },
         "overrides": []
       },
@@ -2902,20 +2896,20 @@ Notre dashboard custom :
         "y": 11
       },
       "hiddenSeries": false,
-      "id": 321,
-      "interval": "$inter",
+      "id": 379,
       "legend": {
+        "alignAsTable": false,
         "avg": false,
-        "current": false,
-        "max": false,
-        "min": false,
+        "current": true,
+        "max": true,
+        "min": true,
         "show": true,
         "total": false,
-        "values": false
+        "values": true
       },
       "lines": true,
       "linewidth": 1,
-      "nullPointMode": "connected",
+      "nullPointMode": "null",
       "options": {
         "alertThreshold": true
       },
@@ -2924,10 +2918,9 @@ Notre dashboard custom :
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
-      "repeatDirection": "v",
       "seriesOverrides": [
         {
-          "$$hashKey": "object:310",
+          "$$hashKey": "object:1301",
           "alias": "/read/",
           "transform": "negative-Y"
         }
@@ -2937,18 +2930,26 @@ Notre dashboard custom :
       "steppedLine": false,
       "targets": [
         {
+          "alias": "$tag_host: $tag_name: $col",
           "groupBy": [
             {
               "params": [
                 "$__interval"
               ],
               "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
             }
           ],
-          "hide": false,
           "measurement": "diskio",
           "orderByTime": "ASC",
           "policy": "default",
+          "query": "SELECT non_negative_derivative(mean(\"read_bytes\"), 1s) AS \"read\" FROM \"diskio\" WHERE (\"host\" =~ /^$server$/ AND \"time\" > now() - 4w) GROUP BY time($__interval), *",
+          "rawQuery": true,
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -2962,6 +2963,12 @@ Notre dashboard custom :
               {
                 "params": [],
                 "type": "mean"
+              },
+              {
+                "params": [
+                  "1s"
+                ],
+                "type": "non_negative_derivative"
               }
             ]
           ],
@@ -2970,6 +2977,12 @@ Notre dashboard custom :
               "key": "host",
               "operator": "=~",
               "value": "/^$server$/"
+            },
+            {
+              "condition": "AND",
+              "key": "time",
+              "operator": ">",
+              "value": "now() - 4w"
             }
           ]
         },
@@ -2984,30 +2997,24 @@ Notre dashboard custom :
             },
             {
               "params": [
-                "host"
+                "*"
               ],
               "type": "tag"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
             }
           ],
           "hide": false,
           "measurement": "diskio",
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "SELECT non_negative_derivative(mean(\"read_bytes\"), 1s) AS \"read\" FROM \"diskio\" WHERE (\"host\" =~ /^$server$/ AND \"time\" > now() - 4w) AND $timeFilter GROUP BY time($__interval), *",
+          "query": "SELECT non_negative_derivative(mean(\"write_bytes\"), 1s) AS \"write\" FROM \"diskio\" WHERE (\"host\" =~ /^$server$/ AND \"time\" > now() - 4w) GROUP BY time($__interval), *",
           "rawQuery": true,
-          "refId": "1 month - Mémoire utilisée",
+          "refId": "B",
           "resultFormat": "time_series",
           "select": [
             [
               {
                 "params": [
-                  "reads"
+                  "read_bytes"
                 ],
                 "type": "field"
               },
@@ -3048,24 +3055,24 @@ Notre dashboard custom :
             },
             {
               "params": [
-                "null"
+                "*"
               ],
-              "type": "fill"
+              "type": "tag"
             }
           ],
           "hide": false,
           "measurement": "diskio",
           "orderByTime": "ASC",
-          "policy": "default",
-          "query": "SELECT non_negative_derivative(mean(\"write_bytes\"), 1s) AS \"write\" FROM \"diskio\" WHERE (\"host\" =~ /^$server$/ AND \"time\" > now() - 4w) AND $timeFilter GROUP BY time($__interval), *",
+          "policy": "RP3month",
+          "query": "SELECT non_negative_derivative(mean(\"mean_read_bytes\"), 1s) AS \"read\" FROM \"RP3month\".\"diskio\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 4w AND \"time\" > now() - 12w) GROUP BY time($__interval), *",
           "rawQuery": true,
-          "refId": "1 month - Mémoire totale",
+          "refId": "C",
           "resultFormat": "time_series",
           "select": [
             [
               {
                 "params": [
-                  "writes"
+                  "mean_read_bytes"
                 ],
                 "type": "field"
               },
@@ -3090,12 +3097,19 @@ Notre dashboard custom :
             {
               "condition": "AND",
               "key": "time",
-              "operator": ">",
+              "operator": "<",
               "value": "now() - 4w"
+            },
+            {
+              "condition": "AND",
+              "key": "time",
+              "operator": ">",
+              "value": "now() - 12w"
             }
           ]
         },
         {
+          "alias": "$tag_host: $tag_name: $col",
           "groupBy": [
             {
               "params": [
@@ -3105,30 +3119,36 @@ Notre dashboard custom :
             },
             {
               "params": [
-                "null"
+                "*"
               ],
-              "type": "fill"
+              "type": "tag"
             }
           ],
-          "hide": true,
-          "measurement": "disk",
+          "hide": false,
+          "measurement": "diskio",
           "orderByTime": "ASC",
           "policy": "RP3month",
-          "query": "SELECT 100 - mean(\"mean_usage_idle\") FROM \"RP3month\".\"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 4w AND \"time\" > now() - 12w) AND $timeFilter GROUP BY time($__interval) fill(null)",
-          "rawQuery": false,
-          "refId": "3 month - Mémoire utilisée",
+          "query": "SELECT non_negative_derivative(mean(\"mean_write_bytes\"), 1s) AS \"write\" FROM \"RP3month\".\"diskio\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 4w AND \"time\" > now() - 12w) GROUP BY time($__interval), *",
+          "rawQuery": true,
+          "refId": "D",
           "resultFormat": "time_series",
           "select": [
             [
               {
                 "params": [
-                  "mean_used"
+                  "mean_read_bytes"
                 ],
                 "type": "field"
               },
               {
                 "params": [],
                 "type": "mean"
+              },
+              {
+                "params": [
+                  "1s"
+                ],
+                "type": "non_negative_derivative"
               }
             ]
           ],
@@ -3153,6 +3173,7 @@ Notre dashboard custom :
           ]
         },
         {
+          "alias": "$tag_host: $tag_name: $col",
           "groupBy": [
             {
               "params": [
@@ -3162,30 +3183,36 @@ Notre dashboard custom :
             },
             {
               "params": [
-                "null"
+                "*"
               ],
-              "type": "fill"
+              "type": "tag"
             }
           ],
-          "hide": true,
-          "measurement": "disk",
+          "hide": false,
+          "measurement": "diskio",
           "orderByTime": "ASC",
           "policy": "RP3month",
-          "query": "SELECT 100 - mean(\"mean_usage_idle\") FROM \"RP3month\".\"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 4w AND \"time\" > now() - 12w) AND $timeFilter GROUP BY time($__interval) fill(null)",
-          "rawQuery": false,
-          "refId": "3 month - Mémoire totale",
+          "query": "SELECT non_negative_derivative(mean(\"mean_mean_read_bytes\"), 1s) AS \"read\" FROM \"RP6month\".\"diskio\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 12w) GROUP BY time($__interval), *",
+          "rawQuery": true,
+          "refId": "E",
           "resultFormat": "time_series",
           "select": [
             [
               {
                 "params": [
-                  "mean_total"
+                  "mean_read_bytes"
                 ],
                 "type": "field"
               },
               {
                 "params": [],
-                "type": "last"
+                "type": "mean"
+              },
+              {
+                "params": [
+                  "1s"
+                ],
+                "type": "non_negative_derivative"
               }
             ]
           ],
@@ -3210,6 +3237,7 @@ Notre dashboard custom :
           ]
         },
         {
+          "alias": "$tag_host: $tag_name: $col",
           "groupBy": [
             {
               "params": [
@@ -3219,81 +3247,36 @@ Notre dashboard custom :
             },
             {
               "params": [
-                "null"
+                "*"
               ],
-              "type": "fill"
+              "type": "tag"
             }
           ],
-          "hide": true,
-          "measurement": "disk",
+          "hide": false,
+          "measurement": "diskio",
           "orderByTime": "ASC",
-          "policy": "RP6month",
-          "query": "SELECT 100 - mean(\"mean_mean_usage_idle\") FROM \"RP6month\".\"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 24w) AND $timeFilter GROUP BY time($__interval) fill(null)",
-          "rawQuery": false,
-          "refId": "6 month - Mémoire utilisée",
+          "policy": "RP3month",
+          "query": "SELECT non_negative_derivative(mean(\"mean_mean_write_bytes\"), 1s) AS \"write\" FROM \"RP6month\".\"diskio\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 12w) GROUP BY time($__interval), *",
+          "rawQuery": true,
+          "refId": "F",
           "resultFormat": "time_series",
           "select": [
             [
               {
                 "params": [
-                  "mean_mean_used"
+                  "mean_read_bytes"
                 ],
                 "type": "field"
               },
               {
                 "params": [],
                 "type": "mean"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            },
-            {
-              "condition": "AND",
-              "key": "time",
-              "operator": "<",
-              "value": "now() - 24w"
-            }
-          ]
-        },
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": true,
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "RP6month",
-          "query": "SELECT 100 - mean(\"mean_mean_usage_idle\") FROM \"RP6month\".\"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 24w) AND $timeFilter GROUP BY time($__interval) fill(null)",
-          "rawQuery": false,
-          "refId": "6 month - Mémoire totale",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "mean_mean_total"
-                ],
-                "type": "field"
               },
               {
-                "params": [],
-                "type": "last"
+                "params": [
+                  "1s"
+                ],
+                "type": "non_negative_derivative"
               }
             ]
           ],
@@ -3307,7 +3290,13 @@ Notre dashboard custom :
               "condition": "AND",
               "key": "time",
               "operator": "<",
-              "value": "now() - 24w"
+              "value": "now() - 4w"
+            },
+            {
+              "condition": "AND",
+              "key": "time",
+              "operator": ">",
+              "value": "now() - 12w"
             }
           ]
         }
@@ -3316,13 +3305,12 @@ Notre dashboard custom :
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Lecture/Ecriture $server",
+      "title": "Lecture / Ecriture IO",
       "tooltip": {
         "shared": true,
         "sort": 0,
         "value_type": "individual"
       },
-      "transformations": [],
       "type": "graph",
       "xaxis": {
         "buckets": null,
@@ -3333,8 +3321,8 @@ Notre dashboard custom :
       },
       "yaxes": [
         {
-          "$$hashKey": "object:341",
-          "format": "none",
+          "$$hashKey": "object:1203",
+          "format": "short",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -3342,7 +3330,7 @@ Notre dashboard custom :
           "show": true
         },
         {
-          "$$hashKey": "object:342",
+          "$$hashKey": "object:1204",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -3352,7 +3340,7 @@ Notre dashboard custom :
         }
       ],
       "yaxis": {
-        "align": true,
+        "align": false,
         "alignLevel": null
       }
     },
@@ -3361,213 +3349,29 @@ Notre dashboard custom :
       "fieldConfig": {
         "defaults": {
           "color": {
-            "mode": "thresholds"
+            "mode": "palette-classic"
           },
-          "custom": {},
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              }
-            ]
-          },
-          "unit": "decbytes"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 4,
-        "w": 3,
-        "x": 0,
-        "y": 20
-      },
-      "id": 218,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "text": {},
-        "textMode": "auto"
-      },
-      "pluginVersion": "7.4.3",
-      "repeat": "server",
-      "repeatDirection": "v",
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-ansible",
-          "value": "devops-ansible"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 10,
+            "gradientMode": "none",
+            "hideFrom": {
+              "graph": false,
+              "legend": false,
+              "tooltip": false
             },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "total"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": []
-        }
-      ],
-      "timeFrom": null,
-      "timeShift": null,
-      "title": "Total $server",
-      "type": "stat"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "max": 10000000000,
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "#EAB839",
-                "value": 7000000000
-              },
-              {
-                "color": "red",
-                "value": 8000000000
-              }
-            ]
-          },
-          "unit": "bytes"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 4,
-        "w": 3,
-        "x": 3,
-        "y": 20
-      },
-      "id": 288,
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "showThresholdLabels": false,
-        "showThresholdMarkers": true,
-        "text": {}
-      },
-      "pluginVersion": "7.4.3",
-      "repeat": "server",
-      "repeatDirection": "v",
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-ansible",
-          "value": "devops-ansible"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
             },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "used"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            }
-          ]
-        }
-      ],
-      "title": "Utilisée $server",
-      "type": "gauge"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
+            "showPoints": "never",
+            "spanNulls": true
           },
-          "custom": {},
           "mappings": [],
           "thresholds": {
             "mode": "absolute",
@@ -3582,41 +3386,32 @@ Notre dashboard custom :
               }
             ]
           },
-          "unit": "percent"
+          "unit": "short"
         },
         "overrides": []
       },
       "gridPos": {
-        "h": 4,
-        "w": 3,
+        "h": 9,
+        "w": 12,
         "x": 6,
         "y": 20
       },
-      "id": 318,
+      "id": 395,
       "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
+        "graph": {},
+        "legend": {
+          "calcs": [],
+          "displayMode": "table",
+          "placement": "bottom"
         },
-        "showThresholdLabels": false,
-        "showThresholdMarkers": true,
-        "text": {}
-      },
-      "pluginVersion": "7.4.3",
-      "repeat": "server",
-      "repeatDirection": "v",
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-ansible",
-          "value": "devops-ansible"
+        "tooltipOptions": {
+          "mode": "single"
         }
       },
+      "pluginVersion": "7.4.3",
       "targets": [
         {
+          "alias": "Disponible : $tag_host",
           "groupBy": [
             {
               "params": [
@@ -3625,766 +3420,22 @@ Notre dashboard custom :
               "type": "time"
             },
             {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "used_percent"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            },
-            {
-              "condition": "AND",
-              "key": "path",
-              "operator": "=",
-              "value": "/"
-            }
-          ]
-        }
-      ],
-      "title": "Utilisation $server /",
-      "type": "gauge"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              }
-            ]
-          },
-          "unit": "decbytes"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 4,
-        "w": 3,
-        "x": 0,
-        "y": 24
-      },
-      "id": 432,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "text": {},
-        "textMode": "auto"
-      },
-      "pluginVersion": "7.4.3",
-      "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
-      "repeatPanelId": 218,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-grafana",
-          "value": "devops-grafana"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "total"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": []
-        }
-      ],
-      "timeFrom": null,
-      "timeShift": null,
-      "title": "Total $server",
-      "type": "stat"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "max": 10000000000,
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "#EAB839",
-                "value": 7000000000
-              },
-              {
-                "color": "red",
-                "value": 8000000000
-              }
-            ]
-          },
-          "unit": "bytes"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 4,
-        "w": 3,
-        "x": 3,
-        "y": 24
-      },
-      "id": 434,
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "showThresholdLabels": false,
-        "showThresholdMarkers": true,
-        "text": {}
-      },
-      "pluginVersion": "7.4.3",
-      "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
-      "repeatPanelId": 288,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-grafana",
-          "value": "devops-grafana"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "used"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            }
-          ]
-        }
-      ],
-      "title": "Utilisée $server",
-      "type": "gauge"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          },
-          "unit": "percent"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 4,
-        "w": 3,
-        "x": 6,
-        "y": 24
-      },
-      "id": 436,
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "showThresholdLabels": false,
-        "showThresholdMarkers": true,
-        "text": {}
-      },
-      "pluginVersion": "7.4.3",
-      "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
-      "repeatPanelId": 318,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-grafana",
-          "value": "devops-grafana"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "used_percent"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            },
-            {
-              "condition": "AND",
-              "key": "path",
-              "operator": "=",
-              "value": "/"
-            }
-          ]
-        }
-      ],
-      "title": "Utilisation $server /",
-      "type": "gauge"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              }
-            ]
-          },
-          "unit": "decbytes"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 4,
-        "w": 3,
-        "x": 0,
-        "y": 28
-      },
-      "id": 433,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "text": {},
-        "textMode": "auto"
-      },
-      "pluginVersion": "7.4.3",
-      "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
-      "repeatPanelId": 218,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-influxdb",
-          "value": "devops-influxdb"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "total"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": []
-        }
-      ],
-      "timeFrom": null,
-      "timeShift": null,
-      "title": "Total $server",
-      "type": "stat"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "max": 10000000000,
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "#EAB839",
-                "value": 7000000000
-              },
-              {
-                "color": "red",
-                "value": 8000000000
-              }
-            ]
-          },
-          "unit": "bytes"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 4,
-        "w": 3,
-        "x": 3,
-        "y": 28
-      },
-      "id": 435,
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "showThresholdLabels": false,
-        "showThresholdMarkers": true,
-        "text": {}
-      },
-      "pluginVersion": "7.4.3",
-      "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
-      "repeatPanelId": 288,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-influxdb",
-          "value": "devops-influxdb"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "used"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            }
-          ]
-        }
-      ],
-      "title": "Utilisée $server",
-      "type": "gauge"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "custom": {},
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          },
-          "unit": "percent"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 4,
-        "w": 3,
-        "x": 6,
-        "y": 28
-      },
-      "id": 437,
-      "options": {
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "showThresholdLabels": false,
-        "showThresholdMarkers": true,
-        "text": {}
-      },
-      "pluginVersion": "7.4.3",
-      "repeatDirection": "v",
-      "repeatIteration": 1615390940811,
-      "repeatPanelId": 318,
-      "scopedVars": {
-        "server": {
-          "selected": false,
-          "text": "devops-influxdb",
-          "value": "devops-influxdb"
-        }
-      },
-      "targets": [
-        {
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "disk",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "used_percent"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "last"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "host",
-              "operator": "=~",
-              "value": "/^$server$/"
-            },
-            {
-              "condition": "AND",
-              "key": "path",
-              "operator": "=",
-              "value": "/"
-            }
-          ]
-        }
-      ],
-      "title": "Utilisation $server /",
-      "type": "gauge"
-    },
-    {
-      "aliasColors": {},
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "telegraf",
-      "editable": true,
-      "error": false,
-      "fieldConfig": {
-        "defaults": {
-          "custom": {},
-          "links": []
-        },
-        "overrides": []
-      },
-      "fill": 1,
-      "fillGradient": 0,
-      "grid": {},
-      "gridPos": {
-        "h": 6,
-        "w": 9,
-        "x": 0,
-        "y": 32
-      },
-      "hiddenSeries": false,
-      "id": 351,
-      "interval": "$inter",
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "max": true,
-        "min": true,
-        "show": true,
-        "sort": "current",
-        "sortDesc": true,
-        "total": false,
-        "values": true
-      },
-      "lines": true,
-      "linewidth": 1,
-      "links": [],
-      "nullPointMode": "connected",
-      "options": {
-        "alertThreshold": true
-      },
-      "percentage": false,
-      "pluginVersion": "7.4.3",
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "/total/",
-          "fill": 0
-        }
-      ],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": true,
-      "targets": [
-        {
-          "alias": "$tag_host: $col",
-          "dsType": "influxdb",
-          "function": "mean",
-          "groupBy": [
-            {
-              "interval": "auto",
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "key": "host",
               "params": [
                 "host"
               ],
               "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
             }
           ],
           "measurement": "swap",
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "SELECT mean(free) as \"free\", mean(used) as \"used\", mean(total) as \"total\" FROM \"swap\" WHERE host =~ /$server$/ AND $timeFilter GROUP BY time($interval), \"host\" ORDER BY asc",
-          "rawQuery": false,
-          "refId": "B",
+          "refId": "A",
           "resultFormat": "time_series",
           "select": [
             [
@@ -4398,11 +3449,49 @@ Notre dashboard custom :
                 "params": [],
                 "type": "mean"
               }
-            ],
+            ]
+          ],
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            }
+          ]
+        },
+        {
+          "alias": "Total : $tag_host",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "swap",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
             [
               {
                 "params": [
-                  "total"
+                  "used"
                 ],
                 "type": "field"
               },
@@ -4410,11 +3499,542 @@ Notre dashboard custom :
                 "params": [],
                 "type": "mean"
               }
-            ],
+            ]
+          ],
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            }
+          ]
+        },
+        {
+          "alias": "Utilisé : $tag_host",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "swap",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
             [
               {
                 "params": [
                   "used"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        }
+      ],
+      "title": "SWAP",
+      "type": "timeseries"
+    },
+    {
+      "collapsed": false,
+      "datasource": null,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 29
+      },
+      "id": 37,
+      "panels": [],
+      "title": "CPU",
+      "type": "row"
+    },
+    {
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 10,
+            "gradientMode": "none",
+            "hideFrom": {
+              "graph": false,
+              "legend": false,
+              "tooltip": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": true
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "short"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 12,
+        "x": 0,
+        "y": 30
+      },
+      "id": 51,
+      "options": {
+        "graph": {},
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltipOptions": {
+          "mode": "single"
+        }
+      },
+      "pluginVersion": "7.4.3",
+      "repeat": null,
+      "repeatDirection": "v",
+      "targets": [
+        {
+          "alias": "$tag_host",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "cpu",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT mean(usage_idle\") FROM \"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" > now() - 4w) AND $timeFilter GROUP BY time($__interval), \"host\" fill(null)",
+          "rawQuery": false,
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "usage_idle"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              },
+              {
+                "params": [
+                  "*-1 +100"
+                ],
+                "type": "math"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            },
+            {
+              "condition": "AND",
+              "key": "time",
+              "operator": ">",
+              "value": "now() - 4w"
+            }
+          ]
+        },
+        {
+          "alias": "$tag_host",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "cpu",
+          "orderByTime": "ASC",
+          "policy": "RP3month",
+          "query": "SELECT 100 - mean(\"mean_usage_idle\") FROM \"RP3month\".\"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 4w AND \"time\" > now() - 12w) AND $timeFilter GROUP BY time($__interval) fill(null)",
+          "rawQuery": false,
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "mean_usage_idle"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              },
+              {
+                "params": [
+                  "*-1+100"
+                ],
+                "type": "math"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            },
+            {
+              "condition": "AND",
+              "key": "time",
+              "operator": "<",
+              "value": "now() - 4w"
+            },
+            {
+              "condition": "AND",
+              "key": "time",
+              "operator": ">",
+              "value": "now() - 12w"
+            }
+          ]
+        },
+        {
+          "alias": "$tag_host",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "cpu",
+          "orderByTime": "ASC",
+          "policy": "RP6month",
+          "query": "SELECT 100 - mean(\"mean_mean_usage_idle\") FROM \"RP6month\".\"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 24w) AND $timeFilter GROUP BY time($__interval) fill(null)",
+          "rawQuery": false,
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "mean_mean_usage_idle"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              },
+              {
+                "params": [
+                  "*-1+100"
+                ],
+                "type": "math"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            },
+            {
+              "condition": "AND",
+              "key": "time",
+              "operator": "<",
+              "value": "now() - 24w"
+            }
+          ]
+        }
+      ],
+      "title": "Utilisation Global % $server",
+      "transformations": [],
+      "type": "timeseries"
+    },
+    {
+      "aliasColors": {},
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": "telegraf",
+      "editable": true,
+      "error": false,
+      "fieldConfig": {
+        "defaults": {
+          "color": {},
+          "custom": {},
+          "thresholds": {
+            "mode": "absolute",
+            "steps": []
+          },
+          "unit": "percent"
+        },
+        "overrides": []
+      },
+      "fill": 1,
+      "fillGradient": 0,
+      "grid": {},
+      "gridPos": {
+        "h": 9,
+        "w": 12,
+        "x": 12,
+        "y": 30
+      },
+      "hiddenSeries": false,
+      "id": 323,
+      "isNew": true,
+      "legend": {
+        "alignAsTable": true,
+        "avg": false,
+        "current": true,
+        "max": false,
+        "min": false,
+        "rightSide": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": true,
+      "linewidth": 1,
+      "links": [],
+      "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
+      "paceLength": 10,
+      "percentage": false,
+      "pluginVersion": "7.4.3",
+      "pointradius": 5,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "alias": "User $tag_host",
+          "dsType": "influxdb",
+          "groupBy": [
+            {
+              "params": [
+                "$interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "cpu",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "usage_user"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            }
+          ]
+        },
+        {
+          "alias": "System $tag_host",
+          "dsType": "influxdb",
+          "groupBy": [
+            {
+              "params": [
+                "$interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "cpu",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "usage_system"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "host",
+              "operator": "=~",
+              "value": "/^$server$/"
+            }
+          ]
+        },
+        {
+          "alias": "IoWait $tag_host",
+          "dsType": "influxdb",
+          "groupBy": [
+            {
+              "params": [
+                "$interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "host"
+              ],
+              "type": "tag"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "cpu",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "usage_iowait"
                 ],
                 "type": "field"
               },
@@ -4437,8 +4057,10 @@ Notre dashboard custom :
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Swap usage (bytes)",
+      "title": "Utilisation by user (%)",
       "tooltip": {
+        "msResolution": true,
+        "ordering": "alphabetical",
         "shared": true,
         "sort": 0,
         "value_type": "cumulative"
@@ -4453,14 +4075,16 @@ Notre dashboard custom :
       },
       "yaxes": [
         {
-          "format": "bytes",
+          "format": "percent",
+          "label": null,
           "logBase": 1,
           "max": null,
-          "min": 0,
+          "min": null,
           "show": true
         },
         {
           "format": "short",
+          "label": null,
           "logBase": 1,
           "max": null,
           "min": null,
@@ -4471,546 +4095,6 @@ Notre dashboard custom :
         "align": false,
         "alignLevel": null
       }
-    },
-    {
-      "collapsed": true,
-      "datasource": null,
-      "gridPos": {
-        "h": 1,
-        "w": 24,
-        "x": 0,
-        "y": 38
-      },
-      "id": 37,
-      "panels": [
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "palette-classic"
-              },
-              "custom": {
-                "axisLabel": "",
-                "axisPlacement": "auto",
-                "barAlignment": 0,
-                "drawStyle": "line",
-                "fillOpacity": 10,
-                "gradientMode": "none",
-                "hideFrom": {
-                  "graph": false,
-                  "legend": false,
-                  "tooltip": false
-                },
-                "lineInterpolation": "linear",
-                "lineWidth": 1,
-                "pointSize": 5,
-                "scaleDistribution": {
-                  "type": "linear"
-                },
-                "showPoints": "never",
-                "spanNulls": true
-              },
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  },
-                  {
-                    "color": "red",
-                    "value": 80
-                  }
-                ]
-              },
-              "unit": "short"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 8,
-            "w": 10,
-            "x": 0,
-            "y": 30
-          },
-          "id": 51,
-          "options": {
-            "graph": {},
-            "legend": {
-              "calcs": [],
-              "displayMode": "list",
-              "placement": "bottom"
-            },
-            "tooltipOptions": {
-              "mode": "single"
-            }
-          },
-          "pluginVersion": "7.4.3",
-          "repeat": null,
-          "repeatDirection": "v",
-          "targets": [
-            {
-              "alias": "$tag_host",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "host"
-                  ],
-                  "type": "tag"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "cpu",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "query": "SELECT mean(usage_idle\") FROM \"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" > now() - 4w) AND $timeFilter GROUP BY time($__interval), \"host\" fill(null)",
-              "rawQuery": false,
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "usage_idle"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*-1 +100"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                },
-                {
-                  "condition": "AND",
-                  "key": "time",
-                  "operator": ">",
-                  "value": "now() - 4w"
-                }
-              ]
-            },
-            {
-              "alias": "$tag_host",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "host"
-                  ],
-                  "type": "tag"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "hide": false,
-              "measurement": "cpu",
-              "orderByTime": "ASC",
-              "policy": "RP3month",
-              "query": "SELECT 100 - mean(\"mean_usage_idle\") FROM \"RP3month\".\"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 4w AND \"time\" > now() - 12w) AND $timeFilter GROUP BY time($__interval) fill(null)",
-              "rawQuery": false,
-              "refId": "B",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "mean_usage_idle"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*-1+100"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                },
-                {
-                  "condition": "AND",
-                  "key": "time",
-                  "operator": "<",
-                  "value": "now() - 4w"
-                },
-                {
-                  "condition": "AND",
-                  "key": "time",
-                  "operator": ">",
-                  "value": "now() - 12w"
-                }
-              ]
-            },
-            {
-              "alias": "$tag_host",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "host"
-                  ],
-                  "type": "tag"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "hide": false,
-              "measurement": "cpu",
-              "orderByTime": "ASC",
-              "policy": "RP6month",
-              "query": "SELECT 100 - mean(\"mean_mean_usage_idle\") FROM \"RP6month\".\"cpu\" WHERE (\"host\" =~ /^$server$/ AND \"time\" < now() - 24w) AND $timeFilter GROUP BY time($__interval) fill(null)",
-              "rawQuery": false,
-              "refId": "C",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "mean_mean_usage_idle"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*-1+100"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                },
-                {
-                  "condition": "AND",
-                  "key": "time",
-                  "operator": "<",
-                  "value": "now() - 24w"
-                }
-              ]
-            }
-          ],
-          "title": "Utilisation Global % $server",
-          "transformations": [],
-          "type": "timeseries"
-        },
-        {
-          "aliasColors": {},
-          "bars": false,
-          "dashLength": 10,
-          "dashes": false,
-          "datasource": "telegraf",
-          "editable": true,
-          "error": false,
-          "fieldConfig": {
-            "defaults": {
-              "color": {},
-              "custom": {},
-              "thresholds": {
-                "mode": "absolute",
-                "steps": []
-              },
-              "unit": "percent"
-            },
-            "overrides": []
-          },
-          "fill": 1,
-          "fillGradient": 0,
-          "grid": {},
-          "gridPos": {
-            "h": 8,
-            "w": 10,
-            "x": 10,
-            "y": 30
-          },
-          "hiddenSeries": false,
-          "id": 323,
-          "isNew": true,
-          "legend": {
-            "alignAsTable": true,
-            "avg": false,
-            "current": true,
-            "max": false,
-            "min": false,
-            "rightSide": false,
-            "show": true,
-            "total": false,
-            "values": true
-          },
-          "lines": true,
-          "linewidth": 1,
-          "links": [],
-          "nullPointMode": "connected",
-          "options": {
-            "alertThreshold": true
-          },
-          "paceLength": 10,
-          "percentage": false,
-          "pluginVersion": "7.4.3",
-          "pointradius": 5,
-          "points": false,
-          "renderer": "flot",
-          "seriesOverrides": [],
-          "spaceLength": 10,
-          "stack": false,
-          "steppedLine": false,
-          "targets": [
-            {
-              "alias": "User $tag_host",
-              "dsType": "influxdb",
-              "groupBy": [
-                {
-                  "params": [
-                    "$interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "host"
-                  ],
-                  "type": "tag"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "cpu",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "usage_user"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            },
-            {
-              "alias": "System $tag_host",
-              "dsType": "influxdb",
-              "groupBy": [
-                {
-                  "params": [
-                    "$interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "host"
-                  ],
-                  "type": "tag"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "cpu",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "B",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "usage_system"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            },
-            {
-              "alias": "IoWait $tag_host",
-              "dsType": "influxdb",
-              "groupBy": [
-                {
-                  "params": [
-                    "$interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "host"
-                  ],
-                  "type": "tag"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "cpu",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "C",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "usage_iowait"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            }
-          ],
-          "thresholds": [],
-          "timeFrom": null,
-          "timeRegions": [],
-          "timeShift": null,
-          "title": "Utilisation by user (%)",
-          "tooltip": {
-            "msResolution": true,
-            "ordering": "alphabetical",
-            "shared": true,
-            "sort": 0,
-            "value_type": "cumulative"
-          },
-          "type": "graph",
-          "xaxis": {
-            "buckets": null,
-            "mode": "time",
-            "name": null,
-            "show": true,
-            "values": []
-          },
-          "yaxes": [
-            {
-              "format": "percent",
-              "label": null,
-              "logBase": 1,
-              "max": null,
-              "min": null,
-              "show": true
-            },
-            {
-              "format": "short",
-              "label": null,
-              "logBase": 1,
-              "max": null,
-              "min": null,
-              "show": true
-            }
-          ],
-          "yaxis": {
-            "align": false,
-            "alignLevel": null
-          }
-        }
-      ],
-      "title": "CPU",
-      "type": "row"
     },
     {
       "collapsed": true,
@@ -5066,10 +4150,10 @@ Notre dashboard custom :
             "overrides": []
           },
           "gridPos": {
-            "h": 9,
+            "h": 11,
             "w": 12,
             "x": 0,
-            "y": 13
+            "y": 16
           },
           "id": 81,
           "options": {
@@ -5450,927 +4534,6 @@ Notre dashboard custom :
           "title": "Utilisation $server",
           "transformations": [],
           "type": "timeseries"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "decimals": 0,
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  }
-                ]
-              },
-              "unit": "decbytes"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 0,
-            "y": 22
-          },
-          "id": 101,
-          "options": {
-            "colorMode": "value",
-            "graphMode": "none",
-            "justifyMode": "auto",
-            "orientation": "auto",
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "text": {},
-            "textMode": "auto"
-          },
-          "pluginVersion": "7.4.3",
-          "repeat": "server",
-          "repeatDirection": "v",
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-ansible",
-              "value": "devops-ansible"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "total"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": []
-            }
-          ],
-          "title": "Total $server",
-          "type": "stat"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "mappings": [],
-              "max": 1000000000,
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  },
-                  {
-                    "color": "#EAB839",
-                    "value": 700000000
-                  },
-                  {
-                    "color": "red",
-                    "value": 800000000
-                  }
-                ]
-              },
-              "unit": "decbytes"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 3,
-            "y": 22
-          },
-          "id": 99,
-          "options": {
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "showThresholdLabels": false,
-            "showThresholdMarkers": true,
-            "text": {}
-          },
-          "pluginVersion": "7.4.3",
-          "repeat": "server",
-          "repeatDirection": "v",
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-ansible",
-              "value": "devops-ansible"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "last"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            }
-          ],
-          "title": "Utilisée $server",
-          "type": "gauge"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  },
-                  {
-                    "color": "red",
-                    "value": 80
-                  }
-                ]
-              },
-              "unit": "percent"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 6,
-            "y": 22
-          },
-          "id": 320,
-          "options": {
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "showThresholdLabels": false,
-            "showThresholdMarkers": true,
-            "text": {}
-          },
-          "pluginVersion": "7.4.3",
-          "repeat": "server",
-          "repeatDirection": "v",
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-ansible",
-              "value": "devops-ansible"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used_percent"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "last"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            }
-          ],
-          "title": "Utilisation $server",
-          "type": "gauge"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "decimals": 0,
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  }
-                ]
-              },
-              "unit": "decbytes"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 0,
-            "y": 26
-          },
-          "id": 372,
-          "options": {
-            "colorMode": "value",
-            "graphMode": "none",
-            "justifyMode": "auto",
-            "orientation": "auto",
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "text": {},
-            "textMode": "auto"
-          },
-          "pluginVersion": "7.4.3",
-          "repeatDirection": "v",
-          "repeatIteration": 1615389508984,
-          "repeatPanelId": 101,
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-grafana",
-              "value": "devops-grafana"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "total"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": []
-            }
-          ],
-          "title": "Total $server",
-          "type": "stat"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "mappings": [],
-              "max": 1000000000,
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  },
-                  {
-                    "color": "#EAB839",
-                    "value": 700000000
-                  },
-                  {
-                    "color": "red",
-                    "value": 800000000
-                  }
-                ]
-              },
-              "unit": "decbytes"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 3,
-            "y": 26
-          },
-          "id": 374,
-          "options": {
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "showThresholdLabels": false,
-            "showThresholdMarkers": true,
-            "text": {}
-          },
-          "pluginVersion": "7.4.3",
-          "repeatDirection": "v",
-          "repeatIteration": 1615389508984,
-          "repeatPanelId": 99,
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-grafana",
-              "value": "devops-grafana"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "last"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            }
-          ],
-          "title": "Utilisée $server",
-          "type": "gauge"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  },
-                  {
-                    "color": "red",
-                    "value": 80
-                  }
-                ]
-              },
-              "unit": "percent"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 6,
-            "y": 26
-          },
-          "id": 376,
-          "options": {
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "showThresholdLabels": false,
-            "showThresholdMarkers": true,
-            "text": {}
-          },
-          "pluginVersion": "7.4.3",
-          "repeatDirection": "v",
-          "repeatIteration": 1615389508984,
-          "repeatPanelId": 320,
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-grafana",
-              "value": "devops-grafana"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used_percent"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "last"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            }
-          ],
-          "title": "Utilisation $server",
-          "type": "gauge"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "decimals": 0,
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  }
-                ]
-              },
-              "unit": "decbytes"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 0,
-            "y": 30
-          },
-          "id": 373,
-          "options": {
-            "colorMode": "value",
-            "graphMode": "none",
-            "justifyMode": "auto",
-            "orientation": "auto",
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "text": {},
-            "textMode": "auto"
-          },
-          "pluginVersion": "7.4.3",
-          "repeatDirection": "v",
-          "repeatIteration": 1615389508984,
-          "repeatPanelId": 101,
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-influxdb",
-              "value": "devops-influxdb"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "total"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": []
-            }
-          ],
-          "title": "Total $server",
-          "type": "stat"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "mappings": [],
-              "max": 1000000000,
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  },
-                  {
-                    "color": "#EAB839",
-                    "value": 700000000
-                  },
-                  {
-                    "color": "red",
-                    "value": 800000000
-                  }
-                ]
-              },
-              "unit": "decbytes"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 3,
-            "y": 30
-          },
-          "id": 375,
-          "options": {
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "showThresholdLabels": false,
-            "showThresholdMarkers": true,
-            "text": {}
-          },
-          "pluginVersion": "7.4.3",
-          "repeatDirection": "v",
-          "repeatIteration": 1615389508984,
-          "repeatPanelId": 99,
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-influxdb",
-              "value": "devops-influxdb"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "last"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            }
-          ],
-          "title": "Utilisée $server",
-          "type": "gauge"
-        },
-        {
-          "datasource": null,
-          "fieldConfig": {
-            "defaults": {
-              "color": {
-                "mode": "thresholds"
-              },
-              "custom": {},
-              "mappings": [],
-              "thresholds": {
-                "mode": "absolute",
-                "steps": [
-                  {
-                    "color": "green",
-                    "value": null
-                  },
-                  {
-                    "color": "red",
-                    "value": 80
-                  }
-                ]
-              },
-              "unit": "percent"
-            },
-            "overrides": []
-          },
-          "gridPos": {
-            "h": 4,
-            "w": 3,
-            "x": 6,
-            "y": 30
-          },
-          "id": 377,
-          "options": {
-            "reduceOptions": {
-              "calcs": [
-                "lastNotNull"
-              ],
-              "fields": "",
-              "values": false
-            },
-            "showThresholdLabels": false,
-            "showThresholdMarkers": true,
-            "text": {}
-          },
-          "pluginVersion": "7.4.3",
-          "repeatDirection": "v",
-          "repeatIteration": 1615389508984,
-          "repeatPanelId": 320,
-          "scopedVars": {
-            "server": {
-              "selected": false,
-              "text": "devops-influxdb",
-              "value": "devops-influxdb"
-            }
-          },
-          "targets": [
-            {
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "A",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used_percent"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "last"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=~",
-                  "value": "/^$server$/"
-                }
-              ]
-            }
-          ],
-          "title": "Utilisation $server",
-          "type": "gauge"
         }
       ],
       "title": "Mémoire",
@@ -6385,11 +4548,7 @@ Notre dashboard custom :
     "list": [
       {
         "allValue": null,
-        "current": {
-          "selected": false,
-          "text": "local_monitoring",
-          "value": "local_monitoring"
-        },
+        "current": {},
         "description": null,
         "error": null,
         "hide": 2,
@@ -6400,11 +4559,11 @@ Notre dashboard custom :
         "options": [
           {
             "selected": true,
-            "text": "local_monitoring",
-            "value": "local_monitoring"
+            "text": "project_local",
+            "value": "project_local"
           }
         ],
-        "query": "local_monitoring",
+        "query": "project_local",
         "skipUrlSync": false,
         "type": "custom"
       },
@@ -6450,6 +4609,6 @@ Notre dashboard custom :
   "timezone": "",
   "title": "System Linux",
   "uid": "qsdsqdsqdqs",
-  "version": 13
+  "version": 21
 }
 ```
