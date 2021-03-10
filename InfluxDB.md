@@ -12,6 +12,6 @@ Les points importants sont les suivants :
 4. Les _Continuous\_queries_ 
 
 \
-Point important : Nous utilisons la **version 1.8** d'influxdb. La version 2.0 étant récente, nous ne l'avons pas encore intégrée au projet.\ 
+Point important : Nous utilisons la **version 1.8** d'influxdb. La version 2.0 étant récente, nous ne l'avons pas encore intégrée au projet.  
 \
-Les données rentre ensuite dans un cycle de vie. Ce cycle est géré par les _Retention Policies_. Un article sur ce sujet [consultable ici](https://github.com/Ynov-Monitoring/deployment/wiki/Retention-de-donn%C3%A9es) a été rédigé.  
+Les données rentrent ensuite dans un cycle de vie. Ce cycle est géré par les _Retention Policies_. Un article sur ce sujet [consultable ici](https://github.com/Ynov-Monitoring/deployment/wiki/Retention-de-donn%C3%A9es) a été rédigé.  
