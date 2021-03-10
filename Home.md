@@ -2,15 +2,19 @@
 
 Dans ce wiki, vous trouverez les informations sur les tenants et aboutissants du projet _Monitoring & Alerting_.  
 ## Sommaire 
-- Getting Started Client 
+- Informations client 
   - [L'équipe](#léquipe)
   - [Demande d'accès](#demande-daccès)
   - [Grafana](#point-dentrée)
 
-- Getting Started technique
+- Informations technique
     - [Vagrant](https://github.com/Ynov-Monitoring/deployment/wiki/Vagrant)
+    - [Ansible](https://github.com/Ynov-Monitoring/deployment/wiki/Ansible)
+    - [Telegraf](https://github.com/Ynov-Monitoring/deployment/wiki/Telegraf)
+    - [InfluxDB](https://github.com/Ynov-Monitoring/deployment/wiki/InfluxDB)
+      - [Rétention de données](https://github.com/Ynov-Monitoring/deployment/wiki/Retention-de-donn%C3%A9es)
+    - [Grafana](https://github.com/Ynov-Monitoring/deployment/wiki/Grafana)
     - [Dashboard Memento](https://github.com/Ynov-Monitoring/deployment/wiki/Ajout-de-dashboard)
-    - [Rétention de données](https://github.com/Ynov-Monitoring/deployment/wiki/Retention-de-donn%C3%A9es)
 
 ### L'équipe 
 
