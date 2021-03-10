@@ -18,7 +18,8 @@ Vous trouverez ci-dessous un exemple non complet de fichier de conf après lance
 ###############################################################################
 
 [[outputs.influxdb]]
-    # On renseigne ici les informations pour que la sonde telegraf puisse inscrire ses données dans la base
+    # On renseigne ici les informations pour que la sonde telegraf puisse 
+    # inscrire ses données dans la base
     urls = ["http://influxdb:8086"]
     database = "database"
     username = "user"
