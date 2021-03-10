@@ -1,6 +1,6 @@
 # Retention Policy
 
-> Documention officielle : https://docs.influxdata.com/influxdb/v1.8/query_language/manage-database/#create-retention-policies-with-create-retention-policy
+> Documentation officielle : https://docs.influxdata.com/influxdb/v1.8/query_language/manage-database/#create-retention-policies-with-create-retention-policy
 
 Nous avons créer plusieurs politiques de rétention afin de gérer la durée de vie des données stocker dans InfluxDB
 
@@ -18,7 +18,7 @@ Nous avons créer plusieurs politiques de rétention afin de gérer la durée de
 
 # Continuous Queries
 
-> Documention officielle : https://docs.influxdata.com/influxdb/v1.8/query_language/continuous_queries/
+> Documentation officielle : https://docs.influxdata.com/influxdb/v1.8/query_language/continuous_queries/
 
 Les continuous queries nous permettent de grouper différentes données en une seule afin de d'alléger la base de données 
 Une nouvelle donnée est récupérée par telegraf et envoyé à InfluxDB toutes les 10 secondes.
