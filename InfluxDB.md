@@ -23,5 +23,7 @@ influx -precision rfc3339
 
 use <nom_de_la_db>
 
-SELECT usage_idle, host, projet from cpu ORDER BY DESC LIMIT 20
+SELECT cpu, usage_idle, host, projet from cpu ORDER BY DESC LIMIT 20
+
+SELECT cpu, mean_usage_idle, host, projet from <nom_de_la_retention_policy>.cpu ORDER BY DESC LIMIT 20
 ```
