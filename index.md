@@ -8,13 +8,13 @@ Dans ce wiki, vous trouverez les informations sur les tenants et aboutissants du
   - [Grafana](#point-dentrée)
 
 - Informations technique
-    - [Vagrant](./Vagrant)
-    - [Ansible](./Ansible)
-    - [Telegraf](./Telegraf)
-    - [InfluxDB](./InfluxDB)
-      - [Rétention de données](./Retention-de-donn%C3%A9es)
-    - [Grafana](./Grafana)
-    - [Dashboard Memento](./Ajout-de-dashboard)
+    - [Vagrant](./Vagrant.md)
+    - [Ansible](./Ansible.md)
+    - [Telegraf](./Telegraf.md)
+    - [InfluxDB](./InfluxDB.md)
+      - [Rétention de données](./Retention-de-données.md)
+    - [Grafana](./Grafana.md)
+    - [Dashboard Memento](./Ajout-de-dashboard.md)
 
 ### L'équipe
 
