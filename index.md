@@ -1,22 +1,22 @@
 # Wiki du projet Monitoring&Alerting
 
-Dans ce wiki, vous trouverez les informations sur les tenants et aboutissants du projet _Monitoring & Alerting_.  
-## Sommaire 
-- Informations client 
+Dans ce wiki, vous trouverez les informations sur les tenants et aboutissants du projet _Monitoring & Alerting_.
+## Sommaire
+- Informations client
   - [L'équipe](#léquipe)
   - [Demande d'accès](#demande-daccès)
   - [Grafana](#point-dentrée)
 
 - Informations technique
-    - [Vagrant](https://github.com/Ynov-Monitoring/deployment/wiki/Vagrant)
-    - [Ansible](https://github.com/Ynov-Monitoring/deployment/wiki/Ansible)
-    - [Telegraf](https://github.com/Ynov-Monitoring/deployment/wiki/Telegraf)
-    - [InfluxDB](https://github.com/Ynov-Monitoring/deployment/wiki/InfluxDB)
-      - [Rétention de données](https://github.com/Ynov-Monitoring/deployment/wiki/Retention-de-donn%C3%A9es)
-    - [Grafana](https://github.com/Ynov-Monitoring/deployment/wiki/Grafana)
-    - [Dashboard Memento](https://github.com/Ynov-Monitoring/deployment/wiki/Ajout-de-dashboard)
+    - [Vagrant](./Vagrant)
+    - [Ansible](./Ansible)
+    - [Telegraf](./Telegraf)
+    - [InfluxDB](./InfluxDB)
+      - [Rétention de données](./Retention-de-donn%C3%A9es)
+    - [Grafana](./Grafana)
+    - [Dashboard Memento](./Ajout-de-dashboard)
 
-### L'équipe 
+### L'équipe
 
 Les membres du groupe pour l'année 2020/2021 sont :
 - [Brice Michalski](mailto:brice.michalsky@ynov.com)
@@ -34,6 +34,6 @@ En tant que nouveau membre, vous devez contacter [_insert a person to contact_] 
 
 ### Point d'entrée
 
-Votre point d'entrée sera [Grafana](https://127.0.0.1). Une fois connecté à cette adresse, il faudra renseigner les identifiants qui vous seront communiqués par [_insert a method_].  
-A partir de là, vous aurez un accès complet à toutes les données concernant vos serveurs.  
-Si vous avez des besoins de supervision spécifiques, n'hésitez pas à contacter [_insert a person to contact_] afin que nos équipes puissent répondre à votre besoin dans les meilleurs délais.  
+Votre point d'entrée sera [Grafana](https://127.0.0.1). Une fois connecté à cette adresse, il faudra renseigner les identifiants qui vous seront communiqués par [_insert a method_].
+A partir de là, vous aurez un accès complet à toutes les données concernant vos serveurs.
+Si vous avez des besoins de supervision spécifiques, n'hésitez pas à contacter [_insert a person to contact_] afin que nos équipes puissent répondre à votre besoin dans les meilleurs délais.
