@@ -40,4 +40,5 @@ Si vous avez des besoins de supervision spécifiques, n'hésitez pas à contacte
 
 ### Diapo de sensibilisation au monitoring
 
-Vous trouverez [ici](https://www.canva.com/design/DAEYWIv36vs/i__qTSk9RmeLl26MFfAvEQ/view) un rappel des fondamentaux du **monitoring et de l'alerting**
+L'image ci-dessous vous amenera vers un rappel des fondamentaux du **monitoring et de l'alerting**\
+[![fondamentaux](img/fondamentaux_monitoring.png)](https://www.canva.com/design/DAEYWIv36vs/i__qTSk9RmeLl26MFfAvEQ/view)
