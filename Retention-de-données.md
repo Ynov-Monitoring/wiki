@@ -44,5 +44,5 @@ BEGIN
    SELECT mean(*) INTO RP6month.:MEASUREMENT 
    FROM RP3month./.*/ 
    GROUP BY time(10m), * 
-END"
+END
 ```
