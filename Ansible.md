@@ -41,5 +41,5 @@ roles:
     - name: mon.role.2
       version: 2.0
 ```
-Puis nous lançons le tléchargement :\
+Puis nous lançons le téléchargement :\
 `$ ansible-galaxy install -r requirements.yml`   
