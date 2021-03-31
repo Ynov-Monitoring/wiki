@@ -246,9 +246,9 @@ C:\telegraf\telegraf.exe --service install --config C:\telegraf\telegraf.conf --
 # service start
 net start telegraf
 ```
-Pour lancer le script il faut lancer un powershell et taper : ./script install telegraf - measurement.ps1 nom_projet
-Il prend un paramètre et un paramètre seulement : le nom du projet pour lequel sera déployée la vm.
-Dans son fonctionnement, il télécharge le dernier package de Telegraf, l'installe dans c:\telegraf\ et y ajoute deux fichiers de configuration.
-Le premier, telegraf.conf, contient l'adresse IP et les identifiants pour se connecter à influxDB.
-Le deuxième, win_perf_counters.conf, contient toutes les métriques et leur nom qui seront utilisées par Graphana.
-Enfin, il lance le service telegraf sur la machine hôte.
+Pour lancer le script il faut lancer un powershell et taper : ./script install telegraf - measurement.ps1 nom_projet  
+Il prend un paramètre et un paramètre seulement : le nom du projet pour lequel sera déployée la vm.  
+Dans son fonctionnement, il télécharge le dernier package de Telegraf, l'installe dans c:\telegraf\ et y ajoute deux fichiers de configuration.  
+Le premier, telegraf.conf, contient l'adresse IP et les identifiants pour se connecter à influxDB.  
+Le deuxième, win_perf_counters.conf, contient toutes les métriques et leur nom qui seront utilisées par Graphana.  
+Enfin, il lance le service telegraf sur la machine hôte.  
